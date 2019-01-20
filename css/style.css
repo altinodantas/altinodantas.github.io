@@ -156,5 +156,11 @@ section {
         height: 120px;
     }
 
+    .networks img {
+        width: 34px;
+        height: 34px;
+        padding: 2px;
+    }
+
     .listing {float: right; width:80%;}
 }
