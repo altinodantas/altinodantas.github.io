@@ -16,9 +16,16 @@ body {
     width: 100%;
     text-align: center;
 }
+.networks {
+    padding: 10px;
+}
+
+.networks img {
+    padding: 5px;
+}
 
 .profile {
-    padding: 80px 0;
+    padding: 40px 0;
     text-align: center;
     margin: 0 auto;
 }
@@ -95,7 +102,8 @@ section {
     font-size:72px; 
     margin-top: 20px; 
     color: #8633c6; 
-    font-weight: 700}
+    font-weight: 700
+}
 
 .listing {
     float: right; 
