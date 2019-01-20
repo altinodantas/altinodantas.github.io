@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700|Fjalla+One');
+
 body {
     margin: 0;
     background-color: #5a40d8;
-	background-image: radial-gradient(circle, #d74add, #5a40d8);
+    background-image: radial-gradient(circle, #d74add, #5a40d8);
+    font-family: 'Fjalla One', sans-serif;
 }
 .main {
     color: #fcdcff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Cabin', sans-serif;
     line-height: 140%;
 }
 .top {
@@ -22,8 +26,8 @@ body {
 .menu {
     width: 600px;
     border-bottom: 6px #000000 solid;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
     text-align: center;
     padding-left: -30px;
     margin: 0 auto;
@@ -41,7 +45,10 @@ body {
 
 .menu .active {color: #d74add;}
 
-h1,h2,h3 { color: #FFF} 
+h1,h2,h3 { 
+    color: #FFF;
+    font-weight: 700;
+} 
 
 .content {
     width: 560px;
@@ -72,16 +79,40 @@ section {
     line-height: 160%;
 }
 
-.item {padding-top: 20px; }
-.item h4 {margin: 0;line-height: 105%}
+.item {
+    padding-top: 20px; 
+}
 
-.numbering {float: left; font-size:62px; margin-top: 10px; color: #8633c6; font-weight: bold}
+.item h4 {
+    margin: 0;
+    line-height: 105%;
+    font-size: 20px;
+    font-weight: 700;
+}
 
-.listing {float: right; width:500px; }
+.numbering {
+    float: left; 
+    font-size:72px; 
+    margin-top: 20px; 
+    color: #8633c6; 
+    font-weight: 700}
 
-.listing div {font-size: 12px;}
+.listing {
+    float: right; 
+    width:500px; 
+}
+
+.listing div {
+    font-size: 12px;
+}
 
 .cleaned {clear: both;}
+
+.tin, .tin a {
+    font-size: 12px;
+    text-align: right;
+    color: #FFF;
+}
 
 @media (max-width:609px){
     .menu {
@@ -90,7 +121,10 @@ section {
         padding: 10px 0;
     }
 
-    .menu li { display: block; text-align: left; margin-left: 30%}
+    .menu li { 
+        display: block; 
+        text-align: left; 
+        margin-left: 30%}
 
     .profile {
         padding: 10px;
